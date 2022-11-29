@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class TeamazureApplication {
-	@GetMapping("/azure")
+	@GetMapping("/github")
 	public String message() {
-		return "Azure Web Apps Service - Build & Deployed Successfully using Azure Pipeline";
-		//+"The main aim of the project is to deploy the same code in GCP and Azure platform.\r\n"
+		return "GitHub Actions - Build & Deployed Successfully";
+		//+"The main aim of the project is to deploy the same code in GCP  platform.\r\n"
 				//+ "\r\n"
 		
- 				//+ "Microsoft Azure(Maha & Jayanthi):\n"
+ 				//+ "Microsoft GCP(Juju):\n"
 				
- 				//+ "Microsoft Azure is a public cloud computing platform—with solutions including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) that can be used for services such as analytics, virtual computing, storage and networking . "
+ 				//+ "Microsoft GCP is a public cloud computing platform—with solutions including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) that can be used for services such as analytics, virtual computing, storage and networking . "
 				
 				
 				//+ "These services and resources include storing your \r\n"
