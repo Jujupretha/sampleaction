@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class TeamazureApplication {
-	@GetMapping("/github")
+	//@GetMapping("/github")
 	public String message() {
 		return "GitHub Actions - Build & Deployed Successfully";
 		//+"The main aim of the project is to deploy the same code in GCP  platform.\r\n"
